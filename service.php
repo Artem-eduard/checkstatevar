@@ -1,13 +1,18 @@
 <?php
-    if ($_POST['checkflag'] == "check")
-    {
-      //  if($var1 && $var2)
-      //  {
+$var1= 2323.23;
+$var2= 230;
 
-            echo "OK";
-            
-      //  }
-    }
+        if($var1 && $var2)
+        {
+           echo $var1 . "," . $var2;
+   
+        }
+        else
+        {
+          echo "NONE";
+        }
+
+?>
 
         
 			
